@@ -1,0 +1,75 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id paciente:</b>
+  <%= @consultum.id_paciente %>
+</p>
+
+<p>
+  <b>Descricao:</b>
+  <%= @consultum.Descricao %>
+</p>
+
+<p>
+  <b>Tipo consulta:</b>
+  <%= @consultum.Tipo_consulta %>
+</p>
+
+<p>
+  <b>Exames:</b>
+  <%= @consultum.Exames %>
+</p>
+
+<p>
+  <b>Exame fisico:</b>
+  <%= @consultum.Exame_fisico %>
+</p>
+
+<p>
+  <b>Cirurgia:</b>
+  <%= @consultum.Cirurgia %>
+</p>
+
+<p>
+  <b>Diagnostico:</b>
+  <%= @consultum.Diagnostico %>
+</p>
+
+<p>
+  <b>Convenio:</b>
+  <%= @consultum.Convenio %>
+</p>
+
+<p>
+  <b>Tipo plano:</b>
+  <%= @consultum.Tipo_plano %>
+</p>
+
+<p>
+  <b>Data consulta:</b>
+  <%= @consultum.Data_consulta %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @consultum.Status %>
+</p>
+
+<p>
+  <b>Id consulta:</b>
+  <%= @consultum.id_consulta %>
+</p>
+
+<p>
+  <b>Id medico:</b>
+  <%= @consultum.id_medico %>
+</p>
+
+<p>
+  <b>Id systemuser:</b>
+  <%= @consultum.id_systemUser %>
+</p>
+
+
+<%= link_to 'Edit', edit_consultum_path(@consultum) %> |
+<%= link_to 'Back', consulta_path %>

@@ -1,0 +1,73 @@
+<%= form_for(@consultum) do |f| %>
+  <% if @consultum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@consultum.errors.count, "error") %> prohibited this consultum from being saved:</h2>
+
+      <ul>
+      <% @consultum.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id_paciente %><br />
+    <%= f.text_field :id_paciente %>
+  </div>
+  <div class="field">
+    <%= f.label :Descricao %><br />
+    <%= f.text_field :Descricao %>
+  </div>
+  <div class="field">
+    <%= f.label :Tipo_consulta %><br />
+    <%= f.text_field :Tipo_consulta %>
+  </div>
+  <div class="field">
+    <%= f.label :Exames %><br />
+    <%= f.text_field :Exames %>
+  </div>
+  <div class="field">
+    <%= f.label :Exame_fisico %><br />
+    <%= f.text_field :Exame_fisico %>
+  </div>
+  <div class="field">
+    <%= f.label :Cirurgia %><br />
+    <%= f.text_field :Cirurgia %>
+  </div>
+  <div class="field">
+    <%= f.label :Diagnostico %><br />
+    <%= f.text_field :Diagnostico %>
+  </div>
+  <div class="field">
+    <%= f.label :Convenio %><br />
+    <%= f.text_field :Convenio %>
+  </div>
+  <div class="field">
+    <%= f.label :Tipo_plano %><br />
+    <%= f.text_field :Tipo_plano %>
+  </div>
+  <div class="field">
+    <%= f.label :Data_consulta %><br />
+    <%= f.datetime_select :Data_consulta %>
+  </div>
+  <div class="field">
+    <%= f.label :Status %><br />
+    <%= f.text_field :Status %>
+  </div>
+  <div class="field">
+    <%= f.label :id_consulta %><br />
+    <%= f.text_field :id_consulta %>
+  </div>
+  <div class="field">
+    <%= f.label :id_medico %><br />
+    <%= f.text_field :id_medico %>
+  </div>
+  <div class="field">
+    <%= f.label :id_systemUser %><br />
+    <%= f.text_field :id_systemUser %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

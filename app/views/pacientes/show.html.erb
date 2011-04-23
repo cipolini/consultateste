@@ -1,0 +1,70 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cpf:</b>
+  <%= @paciente.CPF %>
+</p>
+
+<p>
+  <b>Rg:</b>
+  <%= @paciente.RG %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%= @paciente.Nome %>
+</p>
+
+<p>
+  <b>Cep:</b>
+  <%= @paciente.CEP %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%= @paciente.Endereco %>
+</p>
+
+<p>
+  <b>Numero:</b>
+  <%= @paciente.Numero %>
+</p>
+
+<p>
+  <b>Bairro:</b>
+  <%= @paciente.Bairro %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%= @paciente.Cidade %>
+</p>
+
+<p>
+  <b>Uf:</b>
+  <%= @paciente.UF %>
+</p>
+
+<p>
+  <b>Complemento:</b>
+  <%= @paciente.Complemento %>
+</p>
+
+<p>
+  <b>Sexo:</b>
+  <%= @paciente.Sexo %>
+</p>
+
+<p>
+  <b>Estado civil:</b>
+  <%= @paciente.Estado_Civil %>
+</p>
+
+<p>
+  <b>Data nascimento:</b>
+  <%= @paciente.data_nascimento %>
+</p>
+
+
+<%= link_to 'Edit', edit_paciente_path(@paciente) %> |
+<%= link_to 'Back', pacientes_path %>

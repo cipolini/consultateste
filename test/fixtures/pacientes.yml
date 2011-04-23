@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  CPF: MyString
+  RG: MyString
+  Nome: MyString
+  CEP: MyString
+  Endereco: MyString
+  Numero: MyString
+  Bairro: MyString
+  Cidade: MyString
+  UF: MyString
+  Complemento: MyString
+  Sexo: MyString
+  Estado_Civil: MyString
+  data_nascimento: 2011-04-22 23:01:06
+
+two:
+  CPF: MyString
+  RG: MyString
+  Nome: MyString
+  CEP: MyString
+  Endereco: MyString
+  Numero: MyString
+  Bairro: MyString
+  Cidade: MyString
+  UF: MyString
+  Complemento: MyString
+  Sexo: MyString
+  Estado_Civil: MyString
+  data_nascimento: 2011-04-22 23:01:06
